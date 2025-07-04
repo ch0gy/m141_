@@ -1,4 +1,4 @@
-LOAD DATA LOCAL INFILE 'C:\\Users\\tchophel\\Desktop\\sache\\TBZ\\md\\141\\lb3\\csv\\bp_db_fol\\tbl_personen.csv'
+LOAD DATA LOCAL INFILE '/home/ubuntu/m141/lb3_imp/csv/bp_db_fol/tbl_personen.csv'
 INTO TABLE tbl_personen
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ';'
@@ -6,14 +6,14 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
-LOAD DATA LOCAL INFILE 'C:\\Users\\tchophel\\Desktop\\sache\\TBZ\\md\\141\\lb3\\csv\\bp_db_fol\\tbl_land.csv'
+LOAD DATA LOCAL INFILE '/home/ubuntu/m141/lb3_imp/csv/bp_db_fol/tbl_land.csv'
 INTO TABLE tbl_land
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-LOAD DATA LOCAL INFILE 'C:\\Users\\tchophel\\Desktop\\sache\\TBZ\\md\\141\\lb3\\csv\\bp_db_fol\\tbl_buchung.csv'
+LOAD DATA LOCAL INFILE '/home/ubuntu/m141/lb3_imp/csv/bp_db_fol/tbl_buchung.csv'
 INTO TABLE tbl_buchung
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ';'
@@ -23,7 +23,7 @@ IGNORE 1 ROWS
 (Buchungs_ID, Personen_FS, Land_FS, Ankunft, Abreise);
 
 
-LOAD DATA LOCAL INFILE 'C:\\Users\\tchophel\\Desktop\\sache\\TBZ\\md\\141\\lb3\\csv\\bp_db_fol\\tbl_leistung.csv' 
+LOAD DATA LOCAL INFILE '/home/ubuntu/m141/lb3_imp/csv/bp_db_fol/tbl_leistung.csv' 
 INTO TABLE tbl_leistung
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ';'
@@ -33,7 +33,7 @@ IGNORE 1 ROWS
 (LeistungID, Beschreibung);
 
 
-LOAD DATA LOCAL INFILE 'C:\\Users\\tchophel\\Desktop\\sache\\TBZ\\md\\141\\lb3\\csv\\bp_db_fol\\tbl_benutzer.csv'
+LOAD DATA LOCAL INFILE '/home/ubuntu/m141/lb3_imp/csv/bp_db_fol/tbl_benutzer.csv'
 INTO TABLE tbl_benutzer
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ';'
@@ -46,7 +46,7 @@ SET
 
 
 
-LOAD DATA LOCAL INFILE 'C:\\Users\\tchophel\\Desktop\\sache\\TBZ\\md\\141\\lb3\\csv\\bp_db_fol\\tbl_positionen.csv'
+LOAD DATA LOCAL INFILE '/home/ubuntu/m141/lb3_imp/csv/bp_db_fol/tbl_positionen.csv'
 INTO TABLE tbl_positionen
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ';'
