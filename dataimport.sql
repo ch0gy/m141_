@@ -1,3 +1,5 @@
+USE m141_lb3_db;
+
 LOAD DATA LOCAL INFILE '/home/ubuntu/m141_/csv/tbl_personen.csv'
 INTO TABLE tbl_personen
 CHARACTER SET utf8mb4
